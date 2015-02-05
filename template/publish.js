@@ -422,7 +422,6 @@ exports.publish = function(taffyData, opts, tutorials) {
 
     var templatePath = opts.template;
     view = new template.Template(templatePath + '/tmpl');
-console.log('view', view);
 
     // claim some special filenames in advance, so the All-Powerful Overseer of Filename Uniqueness
     // doesn't try to hand them out later
@@ -448,23 +447,23 @@ console.log('view', view);
     var sourceFiles = {};
     var sourceFilePaths = [];
     data().each(function(doclet) {
-        
+
         doclet.attribs = '';
 
         switch(doclet.ngdoc) {
-          case "provider": 
+          case "provider":
             doclet.kind = "class";
             break;
-          case "service": 
+          case "service":
             doclet.kind = "class";
             break;
-          case "type": 
+          case "type":
             doclet.kind = "typedef";
             break;
-          case "property": 
+          case "property":
             doclet.kind = "member";
             break;
-          case "event": 
+          case "event":
             doclet.kind = "function";
             break;
         }
