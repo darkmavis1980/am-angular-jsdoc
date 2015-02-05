@@ -1,15 +1,21 @@
 {
-  "name": "angular-jsdoc",
+  "name": "am-angular-jsdoc",
   "version": "0.3.1",
   "description": "JsDoc Plugin and Template for AngularJs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": {
-    "name": "Allen Kim",
-    "email": "allenhwkim@gmail.com"
-  },
+  "author": [
+    {
+      "name": "Allen Kim",
+      "email": "allenhwkim@gmail.com"
+    },
+    {
+      "name": "Alessio Michelini",
+      "email": "alessio@musicphotographer.eu"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
     "jsdoc": "~3.3.0-alpha11"
