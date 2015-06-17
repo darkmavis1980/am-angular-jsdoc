@@ -1,6 +1,6 @@
 {
   "name": "am-angular-jsdoc",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "JsDoc Plugin and Template for AngularJs",
   "main": "index.js",
   "scripts": {
@@ -10,15 +10,11 @@
     {
       "name": "Allen Kim",
       "email": "allenhwkim@gmail.com"
-    },
-    {
-      "name": "Alessio Michelini",
-      "email": "alessio@musicphotographer.eu"
     }
   ],
   "license": "MIT",
   "dependencies": {
-    "jsdoc": "~3.3.0-alpha11"
+    "jsdoc": "~3.3.x"
   },
   "devDependencies": {
     "gulp-tap": "~0.1.1",
